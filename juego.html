@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>🎃 Juego de Terror 🎃</title>
+	<link rel="stylesheet" type="text/css" href="../html_halloween/css/boton_ahr.css">
+	<link rel="stylesheet" type="text/css" href="../html_halloween/css/estilosjuego.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shotcut icon" href="imagenes/icono.png">
+	<link rel="stylesheet" type="text/css" href="css/estilomenu.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor   logo-nav-contenedor">
+            <a href="index.html" class="logo">Happy Halloween</a>
+            <span class="menu-icon">Ver menu</span>
+            <nav class="navegacion">
+            	
+	            	<ul class="show">
+	            		<li><a href="index.html">Inicio</a></li>
+						<li><a href="productos.html">Productos</a></li>
+						<li><a href="entretenimiento.html">Entretenimiento</a></li>
+						<!--li><a href="contacto.html">Contacto</a></li-->
+					</ul>
+				
+            </nav>
+        </div>
+    </header>
+    <main>	
+		<br>
+		<audio id="tema"  autoplay="autoplay" src="musica de fondo/songtheme.mp3" preload="preload">
+		</audio>
+		<video id="screamer" hidden="hidden" preload="preload">
+			<source src="videos/jumpscare.mp4" type="video/mp4">
+		</video>
+
+
+		<div class="contenedor2 pointer">
+			<span id="puntos"></span>
+			<span id="ned"></span>
+			<span id="tiempo"></span>
+			<span id="dura"></span>
+		</div>
+		<div class="contenedor2">
+			<div id="player"></div>
+			<span id="cuenta"></span>
+		</div>
+	<script type="text/javascript" src="js/scriptjuego.js"></script>
+	</main>
+
+</body>
+</html>
