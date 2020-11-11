@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black; 
+	background: url(../imagenes/fondo1.jpg);
+	line-height: 23px;
+	font-family: sans-serif;
+}
+
+.main{
+	display: block;
+	margin-top: 110px;
+}
+
+.header{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+	color:orange;
+	padding: 2rem 0;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+
+}
+
+.header a{
+	color:#EA6004;
+	text-decoration:none; 
+}
+
+.logo-nav-contenedor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contenedor {
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.logo{
+	letter-spacing: 8px;
+	font-size: 1em;
+}
+
+.menu-icon{
+	display: none;
+}
+
+
+.navegacion ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navegacion ul li{
+	display: inline-block;
+}
+
+.navegacion ul li a{
+	display: block;
+	padding: 8px 16px;
+}
+
+.navegacion ul li a:hover {
+	color:yellow;
+	background: #928D8D;
+
+}
+@media only screen and (max-width: 767px) {
+	
+	.menu-icon{
+		display: block;
+		cursor: pointer;
+		padding: 8px 16px;
+
+	}
+
+	.navegacion{
+		display: block;
+		width: 100%;
+		position: absolute;
+	    top: 100%;
+	    left: 0;
+	    width: 30%;
+	    height: 100vh;
+	    background: rgba(51,51,51,0.9);
+	    transition: all 0.5s;
+	    transform: translateX(-100%);
+	}
+	
+	.navegacion ul{
+		display: none;
+	}
+
+	.navegacion ul.show{
+		display: block;
+	}
+
+	.navegacion ul li{
+		display: block;
+	}
+
+	.navegacion ul li a{
+		display: block;
+		padding: 15px;
+	}
+
+	.navegacion ul li a:hover {
+		color:yellow;
+		background: #928D8D;
+	}
+}
+
+.menu-icon:hover ~ .navegacion {
+    transform: translateX(0%);
+}

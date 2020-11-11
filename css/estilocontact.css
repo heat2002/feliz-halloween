@@ -1,0 +1,22 @@
+.indice{
+	text-align: center;
+	font-family: papyrus;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.indice ul{
+	position: relative;
+	list-style: none;
+}
+
+.part{
+	display: inline;
+	position:relative;
+	font-size: 40px;
+	text-align: center;
+}
+img{
+	display: inline;
+	width: 50px;
+	height: 50px;
+}

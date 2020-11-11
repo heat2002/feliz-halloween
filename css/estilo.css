@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black; 
+	background: url(../imagenes/fondo1.jpg);
+	line-height: 23px;
+	font-family: sans-serif;
+}
+h1{
+	color: orange;
+	text-align: center;
+	font-family: papyrus;
+	font-size: 100px;
+}
+h2{
+	margin-top: 30px;
+	font-family: comic sans ms;
+	text-align: center;
+	color:#810ED2 ;
+}
+
+p{
+	margin-bottom: 26px;
+	color: #000000;
+	font-family: arial black;
+	text-align: center;
+}
+
+.contenedor {
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+
+
+.main{
+	padding-top: 6rem;
+}
+
+
+
+.unos{
+	width:500px;
+	height:300px; 
+	display: inline-block;
+	margin: 10px 20%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.dos{
+	display: inline;
+	margin: 10px 20%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 500px;
+	height: 300px;
+}
+
+iframe{
+	margin: 10px 20%;
+	height: 500px;
+	width: 800px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#juego{
+	color:rgba(255,255,250,1);
+	text-decoration: none;
+	padding: 10px;
+	font-family: "Oswald","Comic Sans MS";
+	font-size: 18px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: 32%;
+
+	}
+
+
